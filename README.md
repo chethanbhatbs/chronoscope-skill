@@ -12,20 +12,20 @@ Browse past Claude Code conversations in a searchable, filterable HTML interface
 **One-line install:**
 
 ```bash
-gh repo clone chethanbhatbs/history-viewer-skill ~/.claude/skills/history-viewer
+gh repo clone chethanbhatbs/chronoscope-skill ~/.claude/skills/chronoscope
 ```
 
 **Manual install:**
 
 ```bash
-git clone https://github.com/chethanbhatbs/history-viewer-skill.git
-cp -r history-viewer-skill/ ~/.claude/skills/history-viewer/
+git clone https://github.com/chethanbhatbs/chronoscope-skill.git
+cp -r history-viewer-skill/ ~/.claude/skills/chronoscope/
 ```
 
 **Verify it's installed:**
 
 ```bash
-ls ~/.claude/skills/history-viewer/
+ls ~/.claude/skills/chronoscope/
 ```
 
 You should see `SKILL.md` (and any other skill files).
@@ -48,10 +48,10 @@ You should see `SKILL.md` (and any other skill files).
 
 ```bash
 # 1. Extract data
-python3 ~/.claude/skills/history-viewer/extract.py
+python3 ~/.claude/skills/chronoscope/extract.py
 
 # 2. Copy viewer
-cp ~/.claude/skills/history-viewer/viewer.html ~/claude-history-viewer.html
+cp ~/.claude/skills/chronoscope/viewer.html ~/claude-history-viewer.html
 
 # 3. Serve and open
 cd ~ && python3 -m http.server 8765 &
@@ -71,7 +71,7 @@ Skills are markdown files in `~/.claude/skills/` that give Claude Code specializ
 ## Uninstall
 
 ```bash
-rm -rf ~/.claude/skills/history-viewer
+rm -rf ~/.claude/skills/chronoscope
 ```
 
 ## License

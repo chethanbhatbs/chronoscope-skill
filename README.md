@@ -1,4 +1,4 @@
-# History Viewer — Claude Code Skill
+# History Viewer - Claude Code Skill
 
 Browse past Claude Code conversations in a searchable, filterable HTML interface. No more digging through JSONL files.
 
@@ -33,7 +33,7 @@ You should see `SKILL.md` (and any other skill files).
 ## Usage
 
 ```
-/history-viewer           # Generate data + open viewer
+/history-viewer # Generate data + open viewer
 /history-viewer --refresh # Force regenerate even if data exists
 ```
 
@@ -77,5 +77,5 @@ rm -rf ~/.claude/skills/chronoscope
 ---
 
 <p align="center">
-  <sub>Built with <a href="https://emergent.sh">Emergent</a> + <a href="https://claude.ai/code">Claude Code</a> · refined by hand</sub>
+ <sub>Built with <a href="https://emergent.sh">Emergent</a> + <a href="https://claude.ai/code">Claude Code</a> · refined by hand</sub>
 </p>
